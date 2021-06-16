@@ -41,9 +41,8 @@ form {                                 /*form=caixa*/
     border-radius: 8px;
 
     max-width: 730px;
+
 }
-
-
 
 form h1 {
     font-size: 36px;
@@ -66,7 +65,7 @@ form .field {
     flex: 1;
 
     display: flex;
-    flex-direction: column;
+    flex-direction: column; 
 
     margin-bottom: 24px;
 }
@@ -75,8 +74,7 @@ form .field-group {
     display: flex;
 }
 
-form input,
-form select {
+form input, form select {
     background-color: #f0f0f5;
 
     border: 0;
@@ -127,5 +125,3 @@ form button:hover{                       /*quando passa o mouse em cima*/
     background-color: #2fb86e;
      
 }                
-
-/*parei aula 2 1h01 */

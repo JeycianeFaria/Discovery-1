@@ -92,7 +92,6 @@
 #page-home main a span::after {
     background-image: url("../icones/search.svg");
     content: "";
-    
     height: 20px;
     width: 20px;
 }

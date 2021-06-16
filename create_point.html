@@ -1,43 +1,46 @@
 <!DOCTYPE html>
 <html lang="pt_br">
 
-<head>
+    <head>
 
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Criar um ponto de coleta</title>
+        <title>Criar um ponto de coleta</title>
 
 
-    <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Ubuntu:wght@700&display=swap" rel="stylesheet">
-    
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Ubuntu:wght@700&display=swap" rel="stylesheet">
+        
 
-    <link rel="stylesheet" href="./styles/main.css">
-    <link rel="stylesheet" href="./styles/create-point.css">
+        <link rel="stylesheet" href="./styles/main.css">
+        <link rel="stylesheet" href="./styles/create-point.css">
 
-    <link rel="stylesheet" href="./styles/responsive.css">
+        <link rel="stylesheet" href="./styles/responsive.css">
 
-</head>
+    </head>
 
-<body>
+    <!-- Parei Aula 2 - 49min -->
+    <body>
 
         <div id="page-create-point">
 
             <header>
-                <img src="./icones/logo.svg" alt="Logomarca">
                 
+                <img src="./icones/logo.svg" alt="Logomarca">
+                    
                 <a href="http://google.com.br">
                     <span></span>
                     Voltar para home
                 </a>
+
             </header>
 
             <form action=""> 
 
                 <h1>Cadastro do ponto de coleta</h1>
-                
-
-                <fieldset>                         <!--caixinhas no formulario(parte 1) -->
+                    
+                <!--Inicio Dados da entidade -->
+                <fieldset>                         
 
                     <legend>
 
@@ -49,7 +52,7 @@
 
                         <label for="name">Nome da entidade</label>
                         <input type="text" name="name"> 
-                                             <!--Campo de entrada de dados-->
+                        <!--Campo de entrada de dados-->
                     </div>
 
                     <div class="field-group">
@@ -63,8 +66,8 @@
 
                         <div class="field">
 
-                            <label for="address2">Endereço/Complemento</label>
-                            <input type="text" name="address2">
+                            <label for="address2">Número/Complemento</label>
+                            <input type="number" name="address2">
 
                         </div>
 
@@ -94,22 +97,24 @@
                     </div>
 
                 </fieldset>
+                <!-- Fim do Dados da entidade  -->
 
-
+                <!--Início ítens de coleta -->
                 <fieldset>  
-                                            <!--caixinhas no formulario(parte 2) -->
+                    
                     <legend>
                         <h2>Ítens de coleta</h2>
                     </legend>
 
                 </fieldset>
+                <!-- Fim ítens de coleta  -->
 
                 <button type ="submit">Cadastrar ponto de coleta</button>
 
             </form>
 
-    </div>
+        </div>
 
-</body>
+    </body>
 
 </html>
